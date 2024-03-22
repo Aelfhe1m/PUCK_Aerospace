@@ -1,5 +1,6 @@
 @LAZYGLOBAL OFF.
 
+runOncePath("0:/Lib/helpers.ks").
 runOncePath("0:/Lib/flightLog.ks").
 runOncePath("0:/Lib/vesselUtils.ks").
 runOncePath("0:/Lib/timeUtils.ks").
@@ -58,23 +59,20 @@ GLOBAL FUNCTION Launch {
 }
 
 GLOBAL FUNCTION DeployFairings {
-    PARAMETER tag IS "fairing".
     PRINT "Jettisoning fairings".
-    FOR f IN SHIP:partstagged(tag) {
-        f:getmodule("ProceduralFairingDecoupler"):doevent("jettison fairing").
-    }
+    FairingSep().
 }
 
 GLOBAL FUNCTION CoastToApoapsis { 
     SET KUNIVERSE:TIMEWARP:MODE TO "PHYSICS".
     SET KUNIVERSE:TIMEWARP:WARP to 4.
     WAIT UNTIL SHIP:verticalspeed < 0. // wait until apogee
-    Message("Max altitude :  " + ROUND(SHIP:altitude / 1000,2) + " km.", true).
+    Message("Max altitude :  " + FormatKm(SHIP:altitude), true).
 }
 
 GLOBAL FUNCTION WaitForLanding {
     WAIT UNTIL SHIP:Status = "LANDED" OR SHIP:status = "SPLASHED".
-    Message("Downrange    :  " + ROUND(loc:distance/1000,2) + "km", true).
+    Message("Downrange    :  " + FormatKm(loc:distance), true).
 }
 
 GLOBAL FUNCTION EndExpendableFlight {
