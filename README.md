@@ -5,4 +5,6 @@ PUCK Aerospace is a ficticious alternate-history rocket development and launchin
 
 Launch reports and general discussion on [KSP Forum](https://forum.kerbalspaceprogram.com/topic/224159-puck-aerospace-an-rp-1-adventure).
 
+Career stats are available on the [RP-1 Career Log website](https://rp1careerlog.azurewebsites.net/?careerId=65f6f6cba645f8df89e84f57).
+
 Craft files will be made available here and from my hangar at [KerbalX.com](https://kerbalx.com/hangars/186881)
