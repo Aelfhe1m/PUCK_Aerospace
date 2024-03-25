@@ -2,6 +2,31 @@
 
 runOncePath("0:/Lib/vesselUtils.ks").
 
+// rewrite ascent to follow a better pitch program
+// include parameters for vel. to start pitch, initial pitch, targetted deflection from prograde, 
+// and end pitch target
+// e.g for Yeti : 50m/s pitch down 10 deg., continue pitching down -2 deg until 45 deg. hold prograde
+
+GLOBAL FUNCTION AlternativeAscent {
+    PARAMETER targetHeading IS 90.
+    PARAMETER startVel IS 50.
+    PARAMETER initialPitch IS 10.
+    PARAMETER targetDefl IS -2.
+    PARAMETER endAngle IS 45.
+
+    WAIT UNTIL SHIP:verticalspeed > startVel.
+    LOCAL currentPitch IS 90 - initialPitch.
+    LOCAL targetVec IS 1.
+    LOCK STEERING TO HEADING(targetHeading, currentPitch) + R(0,0,360-targetHeading).
+    LOCK targetVec TO HEADING(targetHeading, 45) + R(0,0,360-targetHeading).
+
+    // wait until facing desired initial myPitch
+    WAIT 5.
+    // begin PID based pitch over
+
+    UNLOCK STEERING.
+}
+
 GLOBAL FUNCTION PerformAscentBurn {
     PARAMETER desiredHeading IS 90.
     PARAMETER halfPitchedAlt IS 35_000.

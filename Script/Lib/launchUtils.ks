@@ -3,10 +3,10 @@
 runOncePath("0:/Lib/helpers.ks").
 runOncePath("0:/Lib/flightLog.ks").
 runOncePath("0:/Lib/vesselUtils.ks").
-runOncePath("0:/Lib/timeUtils.ks").
+//runOncePath("0:/Lib/timeUtils.ks").
 
 GLOBAL loc IS SHIP:geoposition.
-GLOBAL lt IS time.
+// GLOBAL lt IS time.
 
 GLOBAL Function CountdownWithSpoolup {
     PARAMETER s IS 3.
@@ -19,7 +19,7 @@ GLOBAL Function CountdownWithSpoolup {
     STAGE.
     Launch().
         
-    SET lt TO time.
+//    SET lt TO time.
 }
 
 GLOBAL v0 TO getVoice(0).
@@ -60,12 +60,15 @@ GLOBAL FUNCTION Launch {
 
 GLOBAL FUNCTION DeployFairings {
     PRINT "Jettisoning fairings".
-    FairingSep().
+    DoFairingSep().
 }
 
-GLOBAL FUNCTION CoastToApoapsis { 
-    SET KUNIVERSE:TIMEWARP:MODE TO "PHYSICS".
-    SET KUNIVERSE:TIMEWARP:WARP to 4.
+GLOBAL FUNCTION CoastToApoapsis {
+    PARAMETER doTimeWarp IS TRUE.
+    IF doTimeWarp {
+        SET KUNIVERSE:TIMEWARP:MODE TO "PHYSICS".
+        SET KUNIVERSE:TIMEWARP:WARP to 4.
+    }
     WAIT UNTIL SHIP:verticalspeed < 0. // wait until apogee
     Message("Max altitude :  " + FormatKm(SHIP:altitude), true).
 }
@@ -96,5 +99,5 @@ GLOBAL FUNCTION AfterFlightReport {
     PRINT "Flight complete".
     PRINT " ".
     flReport().
-    PRINT "MET         :  " + time_formating((time:seconds - lt:seconds), 3, 0, true).
+    PRINT "MET         :  T+ " + TIME(MISSIONTIME):CLOCK.
 }

@@ -1,19 +1,22 @@
+// downrange spin stabalised
+// stage separation timing handled by smart parts
+
 runOncePath("0:/Lib/launchUtils.ks").
-runOncePath("0:/Lib/vesselUtils.ks").
 runOncePath("0:/Lib/ascent.ks").
 
 PARAMETER desiredHeading IS 90.
-PARAMETER halfPitchedAlt IS 25_000. // Altitude at which we want pitch to be 45 degrees.
 
-PreLaunch().
+CountdownWithSpoolup(5, 1.5).
+WAIT UNTIL SHIP:VELOCITY:SURFACE:MAG > 50.
 
-// auto eject fairing above 40km to expose camera.
-// WHEN SHIP:altitude > 60_500 THEN {
-//     DeployFairings().
-// }
+// targetheading, startvel, initialpitch, targetdefl, emdangle
+AlternativeAscent(desiredHeading, 50, 10, -2, 45).
 
-CountdownWithSpoolup(3).
-PerformAscentBurn(desiredHeading, halfPitchedAlt, false).
+PRINT "Beginning unguided gravity turn".
+
+WAIT UNTIL SHIP:availablethrust() < 0.5.
+PRINT "Coasting".
+
 CoastToApoapsis().
 DetatchReturnCapsule().
 WaitForLanding().
@@ -28,3 +31,7 @@ FUNCTION DetatchReturnCapsule {
     wait 10.
     STAGE. // arm chutes.
 }
+
+// long wait to stop script terminating
+wait 6000.
+

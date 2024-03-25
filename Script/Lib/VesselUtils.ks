@@ -24,5 +24,6 @@ GLOBAL Function DoEvent {
     }
 }
 
-GLOBAL FairingSep IS DoEvent@:BIND(SHIP:partstagged("fairing"), "ProceduralFairingDecoupler", "jettison fairing").
-
+GLOBAL FUNCTION DoFairingSep {
+    DoEvent(SHIP:partstagged("fairing"), "ProceduralFairingDecoupler", "jettison fairing").
+}

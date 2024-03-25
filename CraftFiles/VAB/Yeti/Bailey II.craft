@@ -12,7 +12,7 @@ OverrideDefault = False,False,False,False
 OverrideActionControl = 0,0,0,0
 OverrideAxisControl = 0,0,0,0
 OverrideGroupNames = ,,,
-_modVersions = Scale_Redist=3.2.2|ModuleManager=4.2.3|ClickThroughBlocker=2.1.10|FilterExtensions=3.2.9|0Harmony=2.2.1|HarmonyInstallChecker=2.2.1|KSPBurst=1.5.5|Microsoft.Extensions.FileSystemGlobbing=6.0.21|System.IO.Compression=4.6.57|System.IO.Compression.FileSystem=4.6.57|System.Runtime.CompilerServices.Unsafe=4.700.20|System.Runtime=4.0.0|Unity.Burst=0.0.0|Unity.Burst.Unsafe=1.0.0|Unity.Collections=0.0.0|Unity.Jobs=0.0.0|Unity.Mathematics=1.0.0|BlendshapeModelLoader=1.0.0|TexturesUnlimited=0.0.0|aaa_Toolbar=1.8.1|ToolbarControl=0.1.9|SolverEngines=3.13.1|AJE=2.20.0|AtmosphereAutopilot.UI=1.0.0|AtmosphereAutopilot=1.6.1|AutoAGL=1.0.0|B9PartSwitch=2.20.0|B9-PWings-Fork=0.45.1|BDAnimationModules=0.6.7|RNModules=1.2.1|CCK=5.1.0|ConformalDecals=0.2.12|ContractConfigurator=2.9.2|CustomPreLaunchChecks=1.8.1|KerbalKonstructs=1.8.6|KerKonConConExt=2.0.0|CustomBarnKit=1.1.22|DepthMask=1.1.3|DistantObject=0.0.0|KSPe.Light.DOE=2.4.2|ProgressParser=1.0.11|ContractParser=1.0.9|CapCom=1.0.2|ContractsWindow=1.0.9|ContractsWindow.Unity=1.0.9|EditorExtensionsRedux=3.4.5|EngineGroupController=1.0.0|UnityGUIFramework=1.0.0|Atmosphere=1.11.7|CelestialShadows=1.11.7|CityLights=1.11.7|EVEManager=1.11.7|PartFX=1.11.7|PQSManager=1.11.7|ShaderLoader=1.11.7|Terrain=1.11.7|TextureConfig=1.11.7|Utils=1.11.7|_BuildManager=1.11.7|FerramAerospaceResearch.Base=0.16.1|ModularFlightIntegrator=1.2.10|FerramAerospaceResearch=0.16.1|ferramGraph=1.3.0|Firespitter=7.3.7660|FP_DockingSndFX=2.1.12|HangerExtenderExtended=3.6.0|Historian=1.8.0|HUDReplacer=1.0.0|JanitorsCloset=0.3.8|KerbalChangelog=1.4.2|KerbalismBootstrap=3.19.0|KerbalJointReinforcement=3.7.3|System.Core=4.6.57|System.Xml=4.6.57|Renamer=1.7.0|Kopernicus.Parser=1.0.0|Kopernicus=1.12.198|ICSharpCode.SharpZipLib=0.86.0|kOS=1.4.0|kOS.Safe=1.4.0|kOS-EVA=0.2.0|KSCSwitcher=2.0.0|0_MultipleModuleInPartAPI=1.0.0|KSPCommunityFixes=1.34.1|KSPWheel=0.0.0|LazyPainter=1.0.0|LunarTransferPlanner=0.0.0|MagiCore=1.4.0|alglib=1.0.0|MechJeb2=2.14.3|MechJebLib=1.0.0|MechJebLibBindings=1.0.0|NavballDockAlignIndCE=1.1.1|AnalogGauges=0.8.0|NavUtilLib=0.8.0|NavUtilRPM=0.8.0|DockingPortAlignmentIndicator=6.10.0|DPAI_RPM=1.0.0|ModuleDockingNodeNamed=1.0.0|OneWindow=1.0.4|OneWindow_Unity=1.0.4|Grass=0.0.0|ParallaxQualityLibrary=1.0.0|ParallaxOptimized=1.0.0|PartInfo=0.0.8|PartInfoInPAW=0.0.0|PatchManager=0.0.17|PlanetShine=0.2.6|ProceduralFairings=6.5.0|ProceduralParts=2.5.8|RCSBuildAid=1.0.6|RCSBuildAidToolbar=1.0.6|RealAntennas=2.1.1|RealChute=1.4.7845|ROUtils=1.0.1|RealFuels=15.8.3|RealHeat=5.1.0|RealismOverhaul=17.8.0|ROInstallChecker=1.1.0|RealSolarSystem=20.1.2|Restock=0.1.0|RetractableLiftingSurface=0.2.1|ROEngines=2.7.0|ROHeatshields=1.1.0|ROLib=1.9.1|RP0=3.5.0|CC_RP0=1.11.0|ClearInputLocks=1.0.0|RP0InstallChecker=1.0.0|RSSTimeFormatter=1.12.0|RSSVE=1.8.1|scatterer=0.838.0|SensibleScreenshot=1.2.5|Shabby=0.3.0|SmartParts=1.10.0|SmokeScreen=2.8.14|KSP_Log=1.2.0|ButtonManager=1.0.1|KSP_ColorPicker=1.1.0|KSP_PartHighlighter=1.1.0|SpaceTuxUtility=1.0.1|VesselModuleSave=1.0.1|KSPSteamCtrlr=0.0.1|StagedAnimation=1.0.0|SXTContinued=0.3.29|TestFlightAPI=2.2.0|TestFlight=2.2.0|TestFlightContracts=2.2.0|TestFlightCore=2.2.0|TextureReplacer=4.5.3|BetterTracking=1.0.7|BetterTracking.Unity=1.0.7|KerbalAlarmClock=3.14.0|KSPAlternateResourcePanel=2.11.0|TransferWindowPlanner=1.9.1|TUFX=1.0.7|VesselMover=1.12.0|Waterfall=0.0.0|WaypointManager=2.8.4|Kerbalism=3.19.0
+_modVersions = Scale_Redist=3.2.3|ModuleManager=4.2.3|ClickThroughBlocker=2.1.10|FilterExtensions=3.2.9|0Harmony=2.2.1|HarmonyInstallChecker=2.2.1|KSPBurst=1.5.5|Microsoft.Extensions.FileSystemGlobbing=6.0.21|System.IO.Compression=4.6.57|System.IO.Compression.FileSystem=4.6.57|System.Runtime.CompilerServices.Unsafe=4.700.20|System.Runtime=4.0.0|Unity.Burst=0.0.0|Unity.Burst.Unsafe=1.0.0|Unity.Collections=0.0.0|Unity.Jobs=0.0.0|Unity.Mathematics=1.0.0|BlendshapeModelLoader=1.0.0|TexturesUnlimited=0.0.0|aaa_Toolbar=1.8.1|ToolbarControl=0.1.9|SolverEngines=3.13.1|AJE=2.20.0|AtmosphereAutopilot.UI=1.0.0|AtmosphereAutopilot=1.6.1|AutoAGL=1.0.0|B9PartSwitch=2.20.0|B9-PWings-Fork=0.45.1|BDAnimationModules=0.6.7|RNModules=1.2.1|CCK=5.1.0|ConformalDecals=0.2.12|ContractConfigurator=2.9.2|CustomPreLaunchChecks=1.8.1|KerbalKonstructs=1.8.6|KerKonConConExt=2.0.0|CustomBarnKit=1.1.22|DepthMask=1.1.3|DistantObject=0.0.0|KSPe.Light.DOE=2.4.2|ProgressParser=1.0.11|ContractParser=1.0.9|CapCom=1.0.2|ContractsWindow=1.0.9|ContractsWindow.Unity=1.0.9|EditorExtensionsRedux=3.4.5|EngineGroupController=1.0.0|UnityGUIFramework=1.0.0|Atmosphere=1.11.7|CelestialShadows=1.11.7|CityLights=1.11.7|EVEManager=1.11.7|PartFX=1.11.7|PQSManager=1.11.7|ShaderLoader=1.11.7|Terrain=1.11.7|TextureConfig=1.11.7|Utils=1.11.7|_BuildManager=1.11.7|FerramAerospaceResearch.Base=0.16.1|ModularFlightIntegrator=1.2.10|FerramAerospaceResearch=0.16.1|ferramGraph=1.3.0|Firespitter=7.3.7660|FP_DockingSndFX=2.1.12|HangerExtenderExtended=3.6.0|Historian=1.8.0|HUDReplacer=1.0.0|JanitorsCloset=0.3.8|KerbalChangelog=1.4.2|KerbalismBootstrap=3.19.0|KerbalJointReinforcement=3.7.4|System.Core=4.6.57|System.Xml=4.6.57|Renamer=1.7.0|Kopernicus.Parser=1.0.0|Kopernicus=1.12.198|ICSharpCode.SharpZipLib=0.86.0|kOS=1.4.0|kOS.Safe=1.4.0|kOS-EVA=0.2.0|KSCSwitcher=2.0.0|0_MultipleModuleInPartAPI=1.0.0|KSPCommunityFixes=1.34.1|KSPWheel=0.0.0|LazyPainter=1.0.0|LunarTransferPlanner=0.0.0|MagiCore=1.4.0|alglib=1.0.0|MechJeb2=2.14.3|MechJebLib=1.0.0|MechJebLibBindings=1.0.0|NavballDockAlignIndCE=1.1.1|AnalogGauges=0.8.0|NavUtilLib=0.8.0|NavUtilRPM=0.8.0|DockingPortAlignmentIndicator=6.10.0|DPAI_RPM=1.0.0|ModuleDockingNodeNamed=1.0.0|OneWindow=1.0.4|OneWindow_Unity=1.0.4|Grass=0.0.0|ParallaxQualityLibrary=1.0.0|ParallaxOptimized=1.0.0|PartInfo=0.0.8|PartInfoInPAW=0.0.0|PatchManager=0.0.17|PlanetShine=0.2.6|ProceduralFairings=6.5.0|ProceduralParts=2.5.8|RCSBuildAid=1.0.6|RCSBuildAidToolbar=1.0.6|RealAntennas=2.1.1|RealChute=1.4.7845|ROUtils=1.0.1|RealFuels=15.8.3|RealHeat=5.1.0|RealismOverhaul=17.8.0|ROInstallChecker=1.1.0|RealSolarSystem=20.1.2|Restock=0.1.0|RetractableLiftingSurface=0.2.1|ROEngines=2.7.0|ROHeatshields=1.1.0|ROLib=1.9.1|RP0=3.5.0|CC_RP0=1.11.0|ClearInputLocks=1.0.0|RP0InstallChecker=1.0.0|RSSTimeFormatter=1.12.0|RSSVE=1.8.1|scatterer=0.838.0|SensibleScreenshot=1.2.5|Shabby=0.3.0|SmartParts=1.10.0|SmokeScreen=2.8.14|KSP_Log=1.2.0|ButtonManager=1.0.1|KSP_ColorPicker=1.1.0|KSP_PartHighlighter=1.1.0|SpaceTuxUtility=1.0.1|VesselModuleSave=1.0.1|KSPSteamCtrlr=0.0.1|StagedAnimation=1.0.0|SXTContinued=0.3.29|TestFlightAPI=2.2.0|TestFlight=2.2.0|TestFlightContracts=2.2.0|TestFlightCore=2.2.0|TextureReplacer=4.5.3|BetterTracking=1.0.7|BetterTracking.Unity=1.0.7|KerbalAlarmClock=3.14.0|KSPAlternateResourcePanel=2.11.0|TransferWindowPlanner=1.9.1|TUFX=1.0.7|VesselMover=1.12.0|Waterfall=0.0.0|WaypointManager=2.8.4|Kerbalism=3.19.0
 PART
 {
 	part = proceduralAvionics_4290448090
@@ -36,8 +36,8 @@ PART
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 337.250092
-	modMass = -0.598987103
+	modCost = 330.374237
+	modMass = -0.59823972
 	modSize = 0,0,0
 	link = RC.stack_4290443144
 	attN = top,Null_0_0|0.700000048|0_0|1|0_0|0.700000048|0_0|1|0
@@ -316,7 +316,7 @@ PART
 	{
 		name = KOSNameTag
 		isEnabled = True
-		nameTag = Y2
+		nameTag = Y2,135
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1205,8 +1205,8 @@ PART
 		isEnabled = True
 		type = Battery-I
 		utilization = 50
-		volume = 122.5675
-		mass = 0.0261594467
+		volume = 117.5123
+		mass = 0.021851724
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
 		EVENTS
@@ -1231,8 +1231,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 2000
-			maxAmount = 2000
+			amount = 1200
+			maxAmount = 1200
 		}
 		UPGRADESAPPLIED
 		{
@@ -1260,10 +1260,10 @@ PART
 	{
 		name = ModuleProceduralAvionics
 		isEnabled = True
-		controllableMass = 13
+		controllableMass = 13.5
 		avionicsConfigName = Near-Earth
 		avionicsTechLevel = start
-		currentWatts = 307.186005
+		currentWatts = 312.677979
 		systemEnabled = True
 		setToDebrisOnStage = False
 		stagingEnabled = True
@@ -2303,8 +2303,8 @@ PART
 	RESOURCE
 	{
 		name = ElectricCharge
-		amount = 2000
-		maxAmount = 2000
+		amount = 1200
+		maxAmount = 1200
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -2527,7 +2527,7 @@ PART
 			modelID = 0
 			typeID = 0
 			lastTypeID = 0
-			position = 2.2649765E-06,15.5355873,-0.508990347
+			position = 2.2649765E-06,15.4855881,-0.508990347
 			isPressure = False
 			calcSelect = True
 			getMass = True
@@ -2551,7 +2551,7 @@ PART
 			modelID = 0
 			typeID = 0
 			lastTypeID = 0
-			position = 2.2649765E-06,15.5355873,0.509009659
+			position = 2.2649765E-06,15.4855881,0.509009659
 			isPressure = False
 			calcSelect = True
 			getMass = True
@@ -2687,7 +2687,7 @@ PART
 {
 	part = science.module_4290446562
 	partName = Part
-	persistentId = 1178558898
+	persistentId = 1621306870
 	pos = 2.2649765E-06,14.7086878,9.65595245E-06
 	attPos = 0,0,0
 	attPos0 = 0,0,0
@@ -2957,7 +2957,7 @@ PART
 {
 	part = ROT-RingDecoupler_4290440026
 	partName = Part
-	persistentId = 1862849777
+	persistentId = 3294874900
 	pos = 2.2649765E-06,14.133688,9.65595245E-06
 	attPos = 0,0,0
 	attPos0 = 0,0,0
@@ -3297,7 +3297,7 @@ PART
 {
 	part = RO-RFTank-Separate_4290424770
 	partName = Part
-	persistentId = 2781141302
+	persistentId = 881845478
 	pos = 2.2649765E-06,10.2211876,9.65595245E-06
 	attPos = 0,0,0
 	attPos0 = 0,0,0
@@ -3316,7 +3316,7 @@ PART
 	sepI = 0
 	attm = 0
 	sameVesselCollision = False
-	modCost = 186.150848
+	modCost = 93.9108429
 	modMass = -0.0801337361
 	modSize = 0,0,0
 	link = ROT-Mount_4290410634
@@ -3767,7 +3767,7 @@ PART
 	{
 		name = ModuleToolingPTank
 		isEnabled = True
-		addedCost = 92.2400055
+		addedCost = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -3886,7 +3886,7 @@ PART
 {
 	part = ROT-Mount_4290410634
 	partName = Part
-	persistentId = 1372790993
+	persistentId = 1927049545
 	pos = 2.2649765E-06,6.20243645,9.65595245E-06
 	attPos = 0,0,0
 	attPos0 = 0,0,0
@@ -4184,7 +4184,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4286130112
 	partName = Part
-	persistentId = 300696879
+	persistentId = 705824305
 	pos = 2.2649765E-06,5.36077785,0.740461707
 	attPos = 0,0,0
 	attPos0 = 0,0,0
@@ -4567,7 +4567,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4290357860
 	partName = Part
-	persistentId = 518834584
+	persistentId = 4159537252
 	pos = 0.641252577,5.36077785,-0.370216489
 	attPos = 0,0,0
 	attPos0 = 0,0,0
@@ -4950,7 +4950,7 @@ PART
 {
 	part = RO-B9ProcWing-Early_4290357718
 	partName = Part
-	persistentId = 2159168817
+	persistentId = 3453458550
 	pos = -0.641248167,5.36077785,-0.370216489
 	attPos = 0,0,0
 	attPos0 = 0,0,0
@@ -5333,7 +5333,7 @@ PART
 {
 	part = SXTlaunchclamp1_4290237206
 	partName = Part
-	persistentId = 3378431179
+	persistentId = 470489033
 	pos = 2.3321611E-06,0.758162498,-1.90480506
 	attPos = 0,0,0
 	attPos0 = 0,0,0
@@ -5631,7 +5631,7 @@ PART
 {
 	part = conformaldecals-text_4289872480
 	partName = Part
-	persistentId = 2537492842
+	persistentId = 2100779448
 	pos = -0.738312542,9.95319462,0.305829674
 	attPos = 0,0,0
 	attPos0 = 0,0,0
@@ -5848,7 +5848,7 @@ PART
 {
 	part = conformaldecals-text_4289867748
 	partName = Part
-	persistentId = 1681168523
+	persistentId = 2055123733
 	pos = 0.305822492,9.95319462,0.738324642
 	attPos = 0,0,0
 	attPos0 = 0,0,0
@@ -6065,7 +6065,7 @@ PART
 {
 	part = conformaldecals-text_4289867658
 	partName = Part
-	persistentId = 3933285962
+	persistentId = 3932803591
 	pos = 0.738317311,9.95319462,-0.305810481
 	attPos = 0,0,0
 	attPos0 = 0,0,0
@@ -6282,7 +6282,7 @@ PART
 {
 	part = conformaldecals-text_4289867568
 	partName = Part
-	persistentId = 2632007549
+	persistentId = 542063308
 	pos = -0.305817932,9.95319462,-0.738305449
 	attPos = 0,0,0
 	attPos0 = 0,0,0
@@ -6499,7 +6499,7 @@ PART
 {
 	part = conformaldecals-text_4292539610
 	partName = Part
-	persistentId = 3859223358
+	persistentId = 3956001276
 	pos = 2.25007534E-06,14.9570656,0.719252944
 	attPos = 0,0,0
 	attPos0 = 0,0,0
@@ -7111,9 +7111,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 0
-		initialFlightData = 688.455505
-		missionStartTime = 65105134.770995766
+		currentFlightData = 3779.83203
+		initialFlightData = 4468.2876
+		missionStartTime = 106311658.37804776
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -7314,7 +7314,7 @@ PART
 {
 	part = AM.MLP.MilkstoolMini1S_4290253144
 	partName = Part
-	persistentId = 580133862
+	persistentId = 2600419431
 	pos = 2.2649765E-06,0.413406372,9.65595245E-06
 	attPos = 0,0,0
 	attPos0 = 0,-3.41598034,0
