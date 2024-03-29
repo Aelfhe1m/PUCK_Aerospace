@@ -1,3 +1,5 @@
 *.loadmeta
 *.original
 *.webp
+~*.docx
+*.tmp
