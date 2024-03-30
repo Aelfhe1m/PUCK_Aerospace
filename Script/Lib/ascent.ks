@@ -2,6 +2,8 @@
 
 runOncePath("0:/Lib/vesselUtils.ks").
 
+// some sections of this script inspired by YouTube video by Mike Aben
+
 // rewrite ascent to follow a better pitch program
 // include parameters for vel. to start pitch, initial pitch, targetted deflection from prograde, 
 // and end pitch target
