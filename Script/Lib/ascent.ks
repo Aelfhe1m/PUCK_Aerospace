@@ -16,13 +16,13 @@ GLOBAL FUNCTION AlternativeAscent {
 
     WAIT UNTIL SHIP:verticalspeed > startVel.
     LOCAL currentPitch IS 90 - initialPitch.
-    LOCAL targetVec IS 1.
+    // TODO: LOCAL targetVec IS 1.
     LOCK STEERING TO HEADING(targetHeading, currentPitch) + R(0,0,360-targetHeading).
-    LOCK targetVec TO HEADING(targetHeading, 45) + R(0,0,360-targetHeading).
+    // TODO: LOCK targetVec TO HEADING(targetHeading, 45) + R(0,0,360-targetHeading).
 
-    // wait until facing desired initial myPitch
+    // TODO: wait until facing desired initial myPitch
     WAIT 5.
-    // begin PID based pitch over
+    // TODO: begin PID based pitch over
 
     UNLOCK STEERING.
 }

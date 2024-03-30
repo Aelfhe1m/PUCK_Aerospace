@@ -9,7 +9,6 @@ LOCAL phase IS 0.
 WHEN (phase = 1 AND SHIP:apoapsis < targetAp) THEN {
     IF CurrentTWR() < 1 {
         PRINT "Flight failed - aborting".
-        v0:play(n1).
         WAIT 1.
         ABORT ON.
         return false.

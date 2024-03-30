@@ -1,3 +1,5 @@
+// simple V-2 like guided rocket with payload return.
+
 runOncePath("0:/Lib/launchUtils.ks").
 runOncePath("0:/Lib/vesselUtils.ks").
 runOncePath("0:/Lib/ascent.ks").

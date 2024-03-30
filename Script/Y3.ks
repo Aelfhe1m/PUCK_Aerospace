@@ -1,5 +1,6 @@
 // downrange spin stabalised
 // stage separation timing handled by smart parts
+// might run out of battery and terminate before reaching end of script
 
 runOncePath("0:/Lib/launchUtils.ks").
 runOncePath("0:/Lib/ascent.ks").
@@ -26,14 +27,6 @@ AfterFlightReport().
 WAIT 100. // add 100 seconds final delay to let vessel finish blowing up after script resumes.
 
 // ============================
-
-FUNCTION DetatchReturnCapsule {
-    LOCAL payload IS SHIP:partstagged("Payload")[0].
-    payload:getmodule("ModuleDecouple"):doevent("Decouple").
-    wait 10.
-    STAGE. // arm chutes.
-}
-
 // long wait to stop script terminating
 wait 6000.
 
