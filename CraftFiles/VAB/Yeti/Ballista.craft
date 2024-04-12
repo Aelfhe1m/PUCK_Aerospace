@@ -1,6 +1,6 @@
 ship = Ballista
 version = 1.12.5
-description = Three stage Yeti based rocket for 5000k downrange milestone.¨¨KOS sctipt handles initial launch and pitch over then spin stabilisation holds the rocket steady as smart parts handle the staging of the 2nd and thrid stages.¨¨Thress simulations all exceeded 6000 km¨¨Tech: post-war & early rocketry, post-war material science, 
+description = Three stage Yeti based rocket for 5000k downrange milestone.¨¨KOS sctipt handles initial launch and pitch over then spin stabilisation holds the rocket steady as smart parts handle the staging of the 2nd and thrid stages.¨¨Thress simulations all exceeded 6000 km¨¨Tech: post-war & early rocketry, post-war material science,
 type = VAB
 size = 3.05674171,29.0232868,3.05267286
 steamPublishedFileId = 0
@@ -476,6 +476,7 @@ PART
 		UPGRADESAPPLIED
 		{
 			upgrade = RFTech-Tank-Sep-Al
+			upgrade = RFTech-Tank-Sep-Al2
 		}
 	}
 	MODULE
@@ -930,9 +931,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 0
-		initialFlightData = 2000
-		missionStartTime = 81442888.980901614
+		currentFlightData = 4176.99902
+		initialFlightData = 6176.99902
+		missionStartTime = 144425033.31118801
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -1163,8 +1164,8 @@ PART
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 51.7316742
-	modMass = -0.793876827
+	modCost = 14.344121
+	modMass = -0.80137682
 	modSize = 0,0,0
 	link = conformaldecals-text_4289268504
 	link = conformaldecals-text_4289264340
@@ -1538,7 +1539,7 @@ PART
 		type = Tank-Sep-Al-HP
 		utilization = 84
 		volume = 666.85969999999998
-		mass = 0.206123158
+		mass = 0.198623165
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
 		EVENTS
@@ -1563,8 +1564,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 374.2945625143617
-			maxAmount = 374.2945625143617
+			amount = 346.23059624721753
+			maxAmount = 346.23059624721753
 		}
 		TANK
 		{
@@ -1582,8 +1583,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 194.45571467113894
-			maxAmount = 194.45571467113894
+			amount = 179.87575769734534
+			maxAmount = 179.87575769734534
 		}
 		TANK
 		{
@@ -1601,19 +1602,39 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 19621.884562899773
-			maxAmount = 19621.884562899773
+			amount = 18150.669211087417
+			maxAmount = 18150.669211087417
+		}
+		TANK
+		{
+			name = SoundingPayload
+			note = 
+			utilization = 1
+			mass = 0
+			cost = 0
+			loss_rate = 0
+			wallThickness = 0.10000000000000001
+			wallConduction = 205
+			insulationThickness = 0
+			insulationConduction = 1
+			isDewar = False
+			temperature = 300
+			fillable = True
+			techRequired = 
+			amount = 50
+			maxAmount = 50
 		}
 		UPGRADESAPPLIED
 		{
 			upgrade = RFTech-Tank-Sep-Al
+			upgrade = RFTech-Tank-Sep-Al2
 		}
 	}
 	MODULE
 	{
 		name = ModuleToolingPTank
 		isEnabled = True
-		addedCost = 37.3152008
+		addedCost = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1696,9 +1717,20 @@ PART
 	}
 	RESOURCE
 	{
+		name = SoundingPayload
+		amount = 50
+		maxAmount = 50
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
 		name = Kerosene
-		amount = 194.45571467113894
-		maxAmount = 194.45571467113894
+		amount = 179.87575769734534
+		maxAmount = 179.87575769734534
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -1708,8 +1740,8 @@ PART
 	RESOURCE
 	{
 		name = AK20
-		amount = 374.2945625143617
-		maxAmount = 374.2945625143617
+		amount = 346.23059624721753
+		maxAmount = 346.23059624721753
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -1719,8 +1751,8 @@ PART
 	RESOURCE
 	{
 		name = Nitrogen
-		amount = 19621.884562899773
-		maxAmount = 19621.884562899773
+		amount = 18150.669211087417
+		maxAmount = 18150.669211087417
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -2899,7 +2931,7 @@ PART
 	{
 		name = KOSNameTag
 		isEnabled = True
-		nameTag = Y2
+		nameTag = Y3
 		stagingEnabled = True
 		EVENTS
 		{
@@ -5258,7 +5290,7 @@ PART
 	sepI = 0
 	attm = 0
 	sameVesselCollision = False
-	modCost = 221.383606
+	modCost = 19.3835754
 	modMass = -0.596998096
 	modSize = 0,0,0
 	link = ROT-Mount_4292057086
@@ -5700,13 +5732,14 @@ PART
 		UPGRADESAPPLIED
 		{
 			upgrade = RFTech-Tank-Sep-Al
+			upgrade = RFTech-Tank-Sep-Al2
 		}
 	}
 	MODULE
 	{
 		name = ModuleToolingPTank
 		isEnabled = True
-		addedCost = 202.000031
+		addedCost = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -6454,9 +6487,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 0
-		initialFlightData = 2000
-		missionStartTime = 81442888.980901614
+		currentFlightData = 4176.99902
+		initialFlightData = 6176.99902
+		missionStartTime = 144425033.31118801
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -6991,9 +7024,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 0
-		initialFlightData = 2000
-		missionStartTime = 81442888.980901614
+		currentFlightData = 4176.99902
+		initialFlightData = 6176.99902
+		missionStartTime = 144425033.31118801
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -7528,9 +7561,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 0
-		initialFlightData = 2000
-		missionStartTime = 81442888.980901614
+		currentFlightData = 4176.99902
+		initialFlightData = 6176.99902
+		missionStartTime = 144425033.31118801
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -8565,7 +8598,7 @@ PART
 	sepI = 2
 	attm = 0
 	sameVesselCollision = False
-	modCost = 1789.6864
+	modCost = 370.078766
 	modMass = -0.527019143
 	modSize = 0,0,0
 	link = RO-RFTank-Separate_4287597968
@@ -10277,7 +10310,7 @@ PART
 	sepI = 2
 	attm = 0
 	sameVesselCollision = False
-	modCost = 243.761566
+	modCost = 140.961548
 	modMass = 0.445260644
 	modSize = 0,0,0
 	link = RO-B9ProcWing-Early_4286110076
@@ -10731,13 +10764,14 @@ PART
 		UPGRADESAPPLIED
 		{
 			upgrade = RFTech-Tank-Sep-Al
+			upgrade = RFTech-Tank-Sep-Al2
 		}
 	}
 	MODULE
 	{
 		name = ModuleToolingPTank
 		isEnabled = True
-		addedCost = 102.800011
+		addedCost = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -14398,9 +14432,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 0
-		initialFlightData = 1516.23022
-		missionStartTime = 81442888.980901614
+		currentFlightData = 4933.52197
+		initialFlightData = 6933.52197
+		missionStartTime = 144425033.31118801
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -14601,7 +14635,7 @@ PART
 {
 	part = AM.MLP.MilkstoolMini1S_4292590850
 	partName = Part
-	persistentId = 2794396906
+	persistentId = 809032972
 	pos = -0.888238072,-0.0571670532,0.015778292
 	attPos = 0,0,0
 	attPos0 = 2.54510439E-08,-3.41598129,0
@@ -15365,7 +15399,7 @@ PART
 {
 	part = SXTlaunchclamp1_4290694546
 	partName = Part
-	persistentId = 1048413348
+	persistentId = 427951471
 	pos = 0.781387448,0.344535828,0.755548179
 	attPos = 0,0.931211472,0
 	attPos0 = 1.66962588,-10.5543404,0.739769042
