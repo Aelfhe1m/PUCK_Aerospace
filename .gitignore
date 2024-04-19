@@ -3,3 +3,4 @@
 *.webp
 ~*.docx
 *.tmp
+~*.xlsx
